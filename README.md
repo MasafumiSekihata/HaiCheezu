@@ -1,27 +1,17 @@
 # HaiCheezu
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+## アプリについて
 
-## Development server
+### 作ろうとした背景
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- 写真を撮っても後から見直した時どこで撮ったものか忘れちゃう
+    - 美味しいラーメンの写真はあるけど、どのお店か分からない
+    - 聖地巡礼した写真はあるけど、似たような公園ばかり
+    - あの日の思い出を再現したいけど、どのルートだったか憶えてない
 
-## Code scaffolding
+- 勉強のモチベーション維持
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### どんなもの？
+- 地図上に写真を配置して、二次元的なアルバムを作れる
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
