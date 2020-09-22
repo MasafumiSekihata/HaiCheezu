@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { MapComponent } from './component/map/map.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', pathMatch: 'full', component: MapComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
